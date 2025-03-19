@@ -1,0 +1,8 @@
+.swiftpm/
+.build/
+.DS_Store
+*.xcworkspace
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcuserdatad
+
