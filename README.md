@@ -16,9 +16,9 @@ This project fetches character data from the **Rick and Morty API** and displays
 
 ---
 
-##File Breakdown
+## File Breakdown
 
-###API.swift (Handles Data Fetching)
+### API.swift (Handles Data Fetching)
 - Defines `CharacterResponse` and `Character` models using `Codable` for JSON decoding.
 - Uses `fetchCharacters()` to fetch and parse character data asynchronously.
 
@@ -46,7 +46,7 @@ func fetchCharacters() async throws -> [Character] {
 }
 ```
 
-###ContentView.swift (Displays Data)
+### ContentView.swift (Displays Data)
 - Calls `fetchCharacters()` and displays the list of characters in a SwiftUI view.
 - Uses `@State` to manage fetched data.
 
