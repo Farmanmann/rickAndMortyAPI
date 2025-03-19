@@ -96,6 +96,11 @@ struct ContentView: View {
 2. **`fetchCharacters()` (from `API.swift`) makes an API request** and decodes the JSON response.
 3. **The fetched data is stored in `characters`** and displayed in a list with images and names.
 
+## App Preview
+
+Here is a preview of the app displaying Rick and Morty characters:
+
+![App Screenshot](Screenshot.png)
 
 
 
